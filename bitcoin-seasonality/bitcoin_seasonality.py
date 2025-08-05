@@ -1,6 +1,5 @@
 # bitcoin_seasonality.py
 # Proje 2 – Bitcoin’de Mevsimsellik ve Günlük Desen Analizi
-# Visual Studio’da Python 3.x ortamında çalıştırın
 
 # 1. Gerekli kütüphaneleri içe aktar
 import pandas as pd                             # Veri işleme
