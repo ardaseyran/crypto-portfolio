@@ -1,14 +1,18 @@
 # Bitcoin Korelasyon Analizi
 
-**Amaç:** Bitcoin ile ETH, XRP, SOL, ADA, BNB gibi altcoin’lerin fiyat korelasyonlarını incelemek.
+**Amaç:** Bitcoin fiyatının başlıca altcoin’lerle (ETH, XRP, SOL, ADA, BNB) nasıl korelasyon gösterdiğini incelemek.
 
-## Kurulum & Çalıştırma
+---
+
+## Kurulum
 
 ```bash
 cd bitcoin-correlation
 python -m venv .venv
-.\.venv\Scripts\activate   # Windows
+# Windows:
+.\.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
 pip install -r requirements.txt
-streamlit run app.py
 
 
